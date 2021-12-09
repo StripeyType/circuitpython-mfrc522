@@ -1,5 +1,8 @@
-# micropython-mfrc522
-(Micro)Python class to access the MFRC522 RFID reader
+# circuitpython-mfrc522
+forked from danjperron/micropython-mfrc522
+CircuitPython port of danjperron's (Micro)Python class to access the MFRC522 RFID reader
+
+## N.B. - no porting work has yet been done!
 
 D.Perron
 Feb. 2021
@@ -15,9 +18,6 @@ Sept 15 2021
 Addition of RfidAccess Class!  this allows to set or read access bits.<br>
 Addition of read and write using sector/block and selecting KEYA or KEYB.<br>
 Add more examples on how to change access block. (Block3 of each sector).<br>
-
-
-
 
 Basic class to access RFID readers of the type [MFRC522](http://www.nxp.com/documents/data_sheet/MFRC522.pdf). 
 This is basically a re-write of [this](https://github.com/mxgxw/MFRC522-python) Python port for the MFRC522. I 
